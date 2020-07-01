@@ -34,7 +34,8 @@ function App() {
 
   return (
     <div className="App">
-      <Table student={students} />
+      {/* student melempar data Array of Object ke component Table */}
+      <Table students={students} />
     </div>
   );
 }
